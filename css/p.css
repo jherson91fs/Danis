@@ -53,6 +53,91 @@ body {
     color: #fff;
 }
 
+@keyframes glow {
+    0%, 100% {
+        color: #fff;
+        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+    }
+    10%, 90% {
+        color: #111;
+        text-shadow: none;
+    }
+}
+
+/* Delays para las 25 letras de la clase greetings */
+.greetings > span:nth-child(2) {
+    animation-delay: .2s;
+}
+.greetings > span:nth-child(3) {
+    animation-delay: .4s;
+}
+.greetings > span:nth-child(4) {
+    animation-delay: .6s;
+}
+.greetings > span:nth-child(5) {
+    animation-delay: .8s;
+}
+.greetings > span:nth-child(6) {
+    animation-delay: 1s;
+}
+.greetings > span:nth-child(7) {
+    animation-delay: 1.2s;
+}
+.greetings > span:nth-child(8) {
+    animation-delay: 1.4s;
+}
+.greetings > span:nth-child(9) {
+    animation-delay: 1.6s;
+}
+.greetings > span:nth-child(10) {
+    animation-delay: 1.8s;
+}
+.greetings > span:nth-child(11) {
+    animation-delay: 2s;
+}
+.greetings > span:nth-child(12) {
+    animation-delay: 2.2s;
+}
+.greetings > span:nth-child(13) {
+    animation-delay: 2.4s;
+}
+.greetings > span:nth-child(14) {
+    animation-delay: 2.6s;
+}
+.greetings > span:nth-child(15) {
+    animation-delay: 2.8s;
+}
+.greetings > span:nth-child(16) {
+    animation-delay: 3s;
+}
+.greetings > span:nth-child(17) {
+    animation-delay: 3.2s;
+}
+.greetings > span:nth-child(18) {
+    animation-delay: 3.4s;
+}
+.greetings > span:nth-child(19) {
+    animation-delay: 3.6s;
+}
+.greetings > span:nth-child(20) {
+    animation-delay: 3.8s;
+}
+.greetings > span:nth-child(21) {
+    animation-delay: 4s;
+}
+.greetings > span:nth-child(22) {
+    animation-delay: 4.2s;
+}
+.greetings > span:nth-child(23) {
+    animation-delay: 4.4s;
+}
+.greetings > span:nth-child(24) {
+    animation-delay: 4.6s;
+}
+.greetings > span:nth-child(25) {
+    animation-delay: 4.8s;
+}
+
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
 .greetings {
