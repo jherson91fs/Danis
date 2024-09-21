@@ -63,7 +63,9 @@ body {
         text-shadow: none;
     }
 }
-
+.greetings > span {
+    animation: glow 4s ease-in-out infinite;
+}
 /* Delays para las 25 letras de la clase greetings */
 .greetings > span:nth-child(2) {
     animation-delay: .2s;
@@ -122,21 +124,7 @@ body {
 .greetings > span:nth-child(20) {
     animation-delay: 3.8s;
 }
-.greetings > span:nth-child(21) {
-    animation-delay: 4s;
-}
-.greetings > span:nth-child(22) {
-    animation-delay: 4.2s;
-}
-.greetings > span:nth-child(23) {
-    animation-delay: 4.4s;
-}
-.greetings > span:nth-child(24) {
-    animation-delay: 4.6s;
-}
-.greetings > span:nth-child(25) {
-    animation-delay: 4.8s;
-}
+
 
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
