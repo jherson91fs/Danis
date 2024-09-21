@@ -13,7 +13,7 @@ body {
     overflow-x: hidden; /* Evitar desbordamiento horizontal */
 }
 
-/* Estilo de la clase greetings para escritorio */
+/* Estilo de la clasdsae greetings para escritorio */
 .greetings {
     display: flex;
     flex-wrap: wrap;
