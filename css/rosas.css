@@ -1486,3 +1486,8 @@ audio {
   .flower--5 { left: 68%; }
   .flower--6 { left: 8%; }
 }
+
+.flower:active {
+  transform: scale(1.05);
+  filter: brightness(1.3);
+}
