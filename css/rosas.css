@@ -112,7 +112,7 @@ body {
 
 /* ===== CONTENEDOR DE FLORES ===== */
 .flowers {
-  position: var(--flower-center);
+  position: center;
   transform: scale(0.9);
 }
 
