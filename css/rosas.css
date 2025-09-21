@@ -1340,12 +1340,6 @@ audio {
   outline: none;
 }
 
-@media only screen and (max-width: 600px) {
-  audio {
-    width: 100%;
-    bottom: 10px;
-  }
-}
 
 /* ===== MEDIA QUERIES RESPONSIVE MEJORADAS ===== */
 @media screen and (max-width: 768px) {
