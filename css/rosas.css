@@ -112,7 +112,7 @@ body {
 
 /* ===== CONTENEDOR DE FLORES ===== */
 .flowers {
-  position: center;
+  position: relative;
   transform: scale(0.9);
 }
 
@@ -127,7 +127,7 @@ body {
 
 /* ===== FLORES PRINCIPALES ===== */
 .flower {
-  position: center;
+  position:  absolute;
   bottom: 10vmin;
   transform-origin: bottom center;
   z-index: 10;
